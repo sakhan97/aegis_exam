@@ -85,9 +85,28 @@ h2 {
   align-items: center;
   width: 40%;
   border-radius: 25px;
+
+  font-family: var(--accent-font);
+  font-size: var(--fs-lg);
 }
 
 .main__card__img {
   height: 100px;
   width: 100px;
+}
+
+/* CTA STYLING */
+
+.main__cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 250px;
+  margin: auto;
+  background-color: var(--accent-color);
+  border-radius: 40px;
+  color: black;
+  font-family: var(--accent-font);
+  font-size: var(--fs-lg);
 }
