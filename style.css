@@ -1,0 +1,68 @@
+@import "./css/import.css";
+
+/* RESETS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+/* HEADER POSITIONING */
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.header__left {
+  padding: 0.5rem;
+}
+
+.header__right {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding-right: 0.5rem;
+}
+
+.header__btn__container {
+  display: flex;
+  flex-flow: column nowrap;
+  padding-right: 0.5rem;
+  gap: 5px;
+}
+
+/* HEADER STYLING */
+
+.header__btn--style {
+  border-radius: 40px;
+  padding: 3px 15px;
+  border: solid var(--accent-color) 1px;
+  text-align: center;
+
+  font-size: var(--fs-sm);
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+
+.main__card__img {
+  height: 100px;
+  width: 100px;
+}

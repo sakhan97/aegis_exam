@@ -1,0 +1,9 @@
+:root {
+  --fs-sm: clamp(0.7rem, 0.01vi + 0.7rem, 0.71rem);
+  --fs-base: clamp(0.94rem, 0.11vi + 0.91rem, 1rem);
+  --fs-md: clamp(1.25rem, 0.3vi + 1.18rem, 1.41rem);
+  --fs-lg: clamp(1.67rem, 0.61vi + 1.51rem, 2rem);
+  --fs-xl: clamp(2.22rem, 1.1vi + 1.94rem, 2.83rem);
+  --fs-xxl: clamp(2.96rem, 1.89vi + 2.49rem, 4rem);
+  --fs-xxxl: clamp(3.95rem, 3.1vi + 3.17rem, 5.65rem);
+}
