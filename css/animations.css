@@ -174,14 +174,14 @@ span.slideup__animation > span {
 
 @keyframes border {
   0% {
-    border: solid var(--accent-color) 1px;
+    border: solid var(--accent-color);
   }
 
   50% {
-    border: solid white 1px;
+    border: solid white;
   }
 
   100% {
-    border: solid var(--accent-color) 1px;
+    border: solid var(--accent-color);
   }
 }
